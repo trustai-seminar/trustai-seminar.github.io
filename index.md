@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-# Bootstrap Workshop Template!
+# Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI)
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
