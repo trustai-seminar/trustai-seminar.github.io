@@ -6,11 +6,15 @@ layout: page
 # Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI)
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="flex: 1; padding: 10px;">
-        {% include figure.html img="trustai.png" alt="intro image here" caption="TRUST-AI Logo" width="50%" %}
+    <div style="flex: 1; padding: 10px; text-align: center;">
+        <div style="width: 50%; margin: auto;">
+            <img src="./images/trustai.png" alt="TRUST-AI Logo" style="width: 100%; border-radius: 50%;">
+            <p style="text-align: center;">TRUST-AI Logo</p>
+        </div>
     </div>
     <div style="flex: 1; padding: 10px;">
-        {% include figure.html img="utk.webp" alt="UTK logo" caption="The University of Tennessee" width="50%" %}
+        {% include figure.html img="utk.webp" alt="UTK logo"  width="50%" %}
+        <p style="text-align: center;">The University of Tennessee</p>
     </div>
 </div>
 
@@ -21,7 +25,7 @@ layout: page
 The Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI) aims to
 
 ### Speakers
-
+<!-- 
 <div style="display: flex; flex-direction: column; gap: 20px;">
     <div style="display: flex; align-items: center; gap: 10px;">
         <img src="./images/gong.jpeg" alt="Neil Gong" style="width: 160px; height: 160px; border-radius: 50%;">
@@ -44,7 +48,7 @@ The Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI) aims to
             Associate Professor, University of Maryland
         </div>
     </div>
-</div>
+</div> -->
 
 
 
