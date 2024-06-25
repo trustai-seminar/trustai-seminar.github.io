@@ -22,7 +22,7 @@ layout: page
 
 <!-- ### Seminar Overview -->
 
-In the rapidly evolving landscape of artificial intelligence, the imperative for robust, secure, and trustworthy AI systems has never been more critical. The TRUST-AI seminar series aims to address this urgency by bringing to the forefront discussions on ensuring AI technologies advance in capabilities and do so with an unwavering commitment to security, reliability, and ethical governance. For the students and faculty of UT, this seminar series presents a unique opportunity to engage with cutting-edge research and thought leadership in these crucial areas. It promises to enrich academic curricula by incorporating real-world applications and ethical considerations of AI, fostering a generation of scholars and professionals who are well-equipped to navigate and shape the future of technology. Beyond acquiring knowledge, TRUST-AI serves as a vibrant platform for networking, collaboration, and inspiration, enabling participants to explore innovative solutions to complex problems and contribute to advancing a safer, more equitable digital world. By emphasizing these pillars of AI development, the seminar aims to position UT and Tennessee at the forefront of responsible and impactful AI research and application, ensuring its community plays a pivotal role in steering the conversation toward more secure, inclusive, and trustworthy technological futures.
+In the rapidly evolving landscape of artificial intelligence, the imperative for robust, secure, and trustworthy AI systems has never been more critical. The TRUST-AI seminar series aims to address this urgency by bringing to the forefront discussions on ensuring AI technologies advance in capabilities and do so with an unwavering commitment to security, reliability, and ethical governance. Additionally, TRUST-AI serves as a vibrant platform for networking, collaboration, and inspiration, enabling participants to explore innovative solutions to complex problems and contribute to advancing a safer, more equitable digital world. By emphasizing these pillars of AI development, the seminar aims to position UT and Tennessee at the forefront of responsible and impactful AI research and application, ensuring its community plays a pivotal role in steering the conversation toward more secure, inclusive, and trustworthy technological futures.
 
 <!-- ### Speakers -->
 
@@ -62,7 +62,7 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 - [Hairong Qi](https://aicip.github.io/)
 - [Hector Santos-Villalobos](https://www.eecs.utk.edu/people/hector-santos-villalobos/)
 - [Catherine Schuman](https://catherineschuman.com/)
-- [Amir Sadovnik](https://web.eecs.utk.edu/~asadovni/)
+- [Amir Sadovnik (Joint Faculty with ORNL)](https://www.ornl.gov/staff-profile/amir-sadovnik)
 - [Michela Taufer](https://globalcomputing.group/)
 
 
