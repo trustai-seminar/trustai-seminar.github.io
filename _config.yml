@@ -15,7 +15,8 @@ title: TRUST-AI
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+# title-icon: code-slash "/images/trustai.png"
+# title-icon: "./images/trustai.png"
 # description, keywords, and image for meta tags
 # these do not visibility appear on the pages, but used for SEO
 description: "Tennessee RobUst, Secure, and Trustworthy AI Seminar"
@@ -24,14 +25,14 @@ keywords: "TRUST-AI, Seminar "
 # use a relative path to image in this repository or full URL
 featured-image: "/images/trustai.png"
 # add search box to footer? true/false
-search: true
+# search: true
 
 # author settings for cc-by, appears in the footer and credits
-author: evan will
+# author: evan will
 # your github username for link [optional]
-github_username: evanwill
+# github_username: evanwill
 # year or date published
-pub_year: 2021
+# pub_year: 2024
 # location of code, the full url to your github repository
 source-code:  https://trustai-seminar.github.io/
 

@@ -5,7 +5,7 @@ layout: page
 
 # Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI)
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
+<!-- <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex: 1; padding: 10px; text-align: center;">
         <div style="width: 50%; margin: auto;">
             <img src="./images/trustai.png" alt="TRUST-AI Logo" style="width: 100%; border-radius: 50%;">
@@ -16,15 +16,16 @@ layout: page
         {% include figure.html img="utk.webp" alt="UTK logo"  width="50%" %}
         <p style="text-align: center;">The University of Tennessee</p>
     </div>
-</div>
+</div> -->
 
 ---
 
-### Seminar Overview
+<!-- ### Seminar Overview -->
 
-The Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI) aims to
+In the rapidly evolving landscape of artificial intelligence, the imperative for robust, secure, and trustworthy AI systems has never been more critical. The TRUST-AI seminar series aims to address this urgency by bringing to the forefront discussions on ensuring AI technologies advance in capabilities and do so with an unwavering commitment to security, reliability, and ethical governance. For the students and faculty of UT, this seminar series presents a unique opportunity to engage with cutting-edge research and thought leadership in these crucial areas. It promises to enrich academic curricula by incorporating real-world applications and ethical considerations of AI, fostering a generation of scholars and professionals who are well-equipped to navigate and shape the future of technology. Beyond acquiring knowledge, TRUST-AI serves as a vibrant platform for networking, collaboration, and inspiration, enabling participants to explore innovative solutions to complex problems and contribute to advancing a safer, more equitable digital world. By emphasizing these pillars of AI development, the seminar aims to position UT and Tennessee at the forefront of responsible and impactful AI research and application, ensuring its community plays a pivotal role in steering the conversation toward more secure, inclusive, and trustworthy technological futures.
 
-### Speakers
+<!-- ### Speakers -->
+
 <!-- 
 <div style="display: flex; flex-direction: column; gap: 20px;">
     <div style="display: flex; align-items: center; gap: 10px;">
@@ -52,9 +53,18 @@ The Tennessee RobUst, Secure, and Trustworthy AI Seminar (TRUST-AI) aims to
 
 
 
-### Organizers
+### Organization Committee
 
-The TRUST-AI seminar is organized by 
+- [Jian Liu (Chair)](https://web.eecs.utk.edu/~jliu/)
+- [Doowon Kim](https://doowon.github.io/)
+- [Weizi Li](https://weizi-li.github.io/)
+- [Gregory Peterson](https://web.eecs.utk.edu/~gdp/)
+- [Hairong Qi](https://aicip.github.io/)
+- [Hector Santos-Villalobos](https://www.eecs.utk.edu/people/hector-santos-villalobos/)
+- [Catherine Schuman](https://catherineschuman.com/)
+- [Amir Sadovnik](https://web.eecs.utk.edu/~asadovni/)
+- [Michela Taufer](https://globalcomputing.group/)
+
 
 ### Sponsor
 
