@@ -1,6 +1,22 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light pb-lg-0 border-bottom">
+    <style>
+        .navbar-brand-custom {
+            font-size: 1.5rem; /* Adjust this value as needed */
+            font-weight: bold; /* Optional: to make the text bold */
+        }
+
+        .nav-link-custom {
+            font-size: 1.2rem; /* Adjust this value as needed */
+        }
+    </style>
     <div class="container">
-        <a class="navbar-brand" href="{{ '/' | relative_url }}">{% if site.title-icon %}{% include icon.html icon=site.title-icon %} {% endif %}{{ site.title }}</a>
+        <a class="navbar-brand navbar-brand-custom" href="{{ '/' | relative_url }}">
+            {% if site.title-icon %}
+                {% include icon.html icon=site.title-icon %}
+            {% endif %}
+            <img src="{{ '/images/trustai.png' | relative_url }}" alt="Trust AI" style="height: 100px; margin-right: 10px; border-radius: 50%;">
+            {{ site.title }}
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,7 +25,7 @@
             <ul class="navbar-nav nav-tabs justify-content-end">
             {% for section in site.html_pages %}{% if section.nav %}
                 <li class="nav-item">
-                    <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3 h-100" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a>
+                    <a class="nav-link nav-link-custom{% if page.url == section.url %} active{% endif %} p-3 h-100" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a>
                 </li>
             {% endif %}{% endfor %}
             </ul>  
