@@ -53,7 +53,7 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 
 
 
-### Organization Committee
+### Organizing Committee
 
 - [Jian Liu (Chair)](https://web.eecs.utk.edu/~jliu/)
 - [Doowon Kim](https://doowon.github.io/)
@@ -68,7 +68,7 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 
 ### Sponsor
 
-This seminar is proudly sponsored by the [AI Tennessee Initiative](https://research.utk.edu/oried/research-innovation-initiatives/ai-tennessee-initiative/).
+This seminar series is a part of the AI TENNessee Distinguished Seminar Series, proudly sponsored by the [AI Tennessee Initiative](https://research.utk.edu/oried/research-innovation-initiatives/ai-tennessee-initiative/).
 
 
 ### Contact
