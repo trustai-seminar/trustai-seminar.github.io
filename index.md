@@ -12,42 +12,60 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 ### Confirmed Speakers
 
 <div class="speakers-grid">
-    <div class="speaker">
-        <a href="https://people.duke.edu/~zg70/" target="_blank">
-            <img src="./images/24fall/gong.jpeg" alt="Neil Gong">
-        </a>
-        <p><strong><a href="https://people.duke.edu/~zg70/" target="_blank" class="speaker-link">Neil Gong</a></strong><br>Duke University</p>
-    </div>
-    <div class="speaker">
-        <a href="https://mi-zhang.github.io/" target="_blank">
-            <img src="./images/24fall/mi.jpeg" alt="Mi Zhang">
-        </a>
-        <p><strong><a href="https://mi-zhang.github.io/" target="_blank" class="speaker-link">Mi Zhang</a></strong><br>The Ohio State University</p>
-    </div>
-    <div class="speaker">
-        <a href="https://www.cs.utexas.edu/~pstone/bio_long.shtml" target="_blank">
-            <img src="./images/24fall/peter.png" alt="Peter Stone">
-        </a>
-        <p><strong><a href="https://www.cs.utexas.edu/~pstone/bio_long.shtml" target="_blank" class="speaker-link">Peter Stone</a></strong><br>The University of Texas at Austin</p>
-    </div>
+
     <div class="speaker">
         <a href="https://users.umiacs.umd.edu/~tdumitra/" target="_blank">
             <img src="./images/24fall/tudor.jpeg" alt="Tudor Dumitraș">
         </a>
         <p><strong><a href="https://users.umiacs.umd.edu/~tdumitra/" target="_blank" class="speaker-link">Tudor Dumitraș</a></strong><br>University of Maryland, College Park</p>
     </div>
+
     <div class="speaker">
-        <a href="https://www.cs.emory.edu/~lxiong/" target="_blank">
-            <img src="./images/24fall/xiong.jpeg" alt="Li Xiong">
+        <a href="https://people.duke.edu/~zg70/" target="_blank">
+            <img src="./images/24fall/gong.jpeg" alt="Neil Gong">
         </a>
-        <p><strong><a href="https://www.cs.emory.edu/~lxiong/" target="_blank" class="speaker-link">Li Xiong</a></strong><br>Emory University</p>
+        <p><strong><a href="https://people.duke.edu/~zg70/" target="_blank" class="speaker-link">Neil Gong</a></strong><br>Duke University</p>
     </div>
+
+    <div class="speaker">
+        <a href="https://yhongcs.github.io/" target="_blank">
+            <img src="./images/24fall/hong.jpeg" alt="Yuan Hong">
+        </a>
+        <p><strong><a href="https://yhongcs.github.io/" target="_blank" class="speaker-link">Yuan Hong</a></strong><br>University of Connecticut</p>
+    </div>
+
+    <div class="speaker">
+        <a href="https://www.cs.utexas.edu/~pstone/bio_long.shtml" target="_blank">
+            <img src="./images/24fall/peter.png" alt="Peter Stone">
+        </a>
+        <p><strong><a href="https://www.cs.utexas.edu/~pstone/bio_long.shtml" target="_blank" class="speaker-link">Peter Stone</a></strong><br>The University of Texas at Austin</p>
+    </div>
+
     <div class="speaker">
         <a href="https://www.ytian.info/" target="_blank">
             <img src="./images/24fall/yuan.jpeg" alt="Yuan Tian">
         </a>
         <p><strong><a href="https://www.ytian.info/" target="_blank" class="speaker-link">Yuan Tian</a></strong><br>University of California, Los Angeles</p>
     </div>
+
+    <div class="speaker">
+        <a href="https://www.cs.emory.edu/~lxiong/" target="_blank">
+            <img src="./images/24fall/xiong.jpeg" alt="Li Xiong">
+        </a>
+        <p><strong><a href="https://www.cs.emory.edu/~lxiong/" target="_blank" class="speaker-link">Li Xiong</a></strong><br>Emory University</p>
+    </div>
+
+    <div class="speaker">
+        <a href="https://mi-zhang.github.io/" target="_blank">
+            <img src="./images/24fall/mi.jpeg" alt="Mi Zhang">
+        </a>
+        <p><strong><a href="https://mi-zhang.github.io/" target="_blank" class="speaker-link">Mi Zhang</a></strong><br>The Ohio State University</p>
+    </div>
+
+    
+
+    
+    
 </div>
 
 ### Organizing Committee
@@ -86,11 +104,13 @@ For more information about the seminar please follow us at:
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the left */
+    align-content: flex-start; /* Align rows to the top */
 }
 
 .speaker {
     flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px); /* Ensure no more than 3 items per row */
     box-sizing: border-box;
     text-align: center;
 }
@@ -113,4 +133,6 @@ For more information about the seminar please follow us at:
 .speaker-link:hover, .speaker-link:focus {
     color: blue;
 }
+
+
 </style>
