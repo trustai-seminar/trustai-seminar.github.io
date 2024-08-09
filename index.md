@@ -35,6 +35,13 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
     </div>
 
     <div class="speaker">
+        <a href="https://personal.utdallas.edu/~mxk055100/" target="_blank">
+            <img src="./images/24fall/murat.jpeg" alt="Murat Kantarcioglu">
+        </a>
+        <p><strong><a href="https://personal.utdallas.edu/~mxk055100/" target="_blank" class="speaker-link">Murat Kantarcioglu</a></strong><br>University of Texas at Dallas</p>
+    </div>
+
+    <div class="speaker">
         <a href="https://www.cs.utexas.edu/~pstone/bio_long.shtml" target="_blank">
             <img src="./images/24fall/peter.png" alt="Peter Stone">
         </a>
@@ -62,15 +69,6 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
         <p><strong><a href="https://mi-zhang.github.io/" target="_blank" class="speaker-link">Mi Zhang</a></strong><br>The Ohio State University</p>
     </div>
 
-    <div class="speaker">
-        <a href="https://personal.utdallas.edu/~mxk055100/" target="_blank">
-            <img src="./images/24fall/murat.jpeg" alt="Mi Zhang">
-        </a>
-        <p><strong><a href="https://personal.utdallas.edu/~mxk055100/" target="_blank" class="speaker-link">Murat Kantarcioglu</a></strong><br>University of Texas at Dallas</p>
-    </div>
-
-    
-
     
     
 </div>
@@ -82,11 +80,12 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 - [Weizi Li](https://weizi-li.github.io/)
 - [Gregory Peterson](https://web.eecs.utk.edu/~gdp/)
 - [Hairong Qi](https://aicip.github.io/)
-- [Hector Santos-Villalobos](https://www.eecs.utk.edu/people/hector-santos-villalobos/)
-- [Catherine Schuman](https://catherineschuman.com/)
 - [Amir Sadovnik (Joint Faculty with ORNL)](https://www.ornl.gov/staff-profile/amir-sadovnik)
-- [Michela Taufer](https://globalcomputing.group/)
+- [Catherine Schuman](https://catherineschuman.com/)
+- [Hector Santos-Villalobos](https://www.eecs.utk.edu/people/hector-santos-villalobos/)
 - [Fnu Suya](https://fsuya.org/)
+- [Michela Taufer](https://globalcomputing.group/)
+
 
 ### Sponsor
 
