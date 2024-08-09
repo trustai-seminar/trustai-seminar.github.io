@@ -62,6 +62,13 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
         <p><strong><a href="https://mi-zhang.github.io/" target="_blank" class="speaker-link">Mi Zhang</a></strong><br>The Ohio State University</p>
     </div>
 
+    <div class="speaker">
+        <a href="https://personal.utdallas.edu/~mxk055100/" target="_blank">
+            <img src="./images/24fall/murat.jpeg" alt="Mi Zhang">
+        </a>
+        <p><strong><a href="https://personal.utdallas.edu/~mxk055100/" target="_blank" class="speaker-link">Murat Kantarcioglu</a></strong><br>University of Texas at Dallas</p>
+    </div>
+
     
 
     
@@ -79,6 +86,7 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
 - [Catherine Schuman](https://catherineschuman.com/)
 - [Amir Sadovnik (Joint Faculty with ORNL)](https://www.ornl.gov/staff-profile/amir-sadovnik)
 - [Michela Taufer](https://globalcomputing.group/)
+- [Fnu Suya](https://fsuya.org/)
 
 ### Sponsor
 
