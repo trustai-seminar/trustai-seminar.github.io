@@ -35,10 +35,10 @@ In the rapidly evolving landscape of artificial intelligence, the imperative for
     </div>
 
     <div class="speaker">
-        <a href="https://personal.utdallas.edu/~mxk055100/" target="_blank">
+        <a href="https://www.kantarcioglu.net/" target="_blank">
             <img src="./images/24fall/murat.jpeg" alt="Murat Kantarcioglu">
         </a>
-        <p><strong><a href="https://personal.utdallas.edu/~mxk055100/" target="_blank" class="speaker-link">Murat Kantarcioglu</a></strong><br>University of Texas at Dallas</p>
+        <p><strong><a href="https://www.kantarcioglu.net/" target="_blank" class="speaker-link">Murat Kantarcioglu</a></strong><br>Virginia Tech</p>
     </div>
 
     <div class="speaker">
