@@ -1,19 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light pb-lg-0 border-bottom">
     <style>
         .navbar-brand-custom {
-            font-size: 1.5rem; /* Adjust this value as needed */
-            font-weight: bold; /* Optional: to make the text bold */
+            font-size: 1.5rem;
+            font-weight: bold;
         }
-
         .nav-link-custom {
-            font-size: 1.2rem; /* Adjust this value as needed */
+            font-size: 1.2rem;
         }
     </style>
     <div class="container">
         <a class="navbar-brand navbar-brand-custom" href="{{ '/' | relative_url }}">
-            {% if site.title-icon %}
-                {% include icon.html icon=site.title-icon %}
-            {% endif %}
             <img src="{{ '/images/trustai.png' | relative_url }}" alt="Trust AI" style="height: 100px; margin-right: 10px; border-radius: 50%;">
             {{ site.title }}
         </a>
@@ -23,12 +19,30 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav nav-tabs justify-content-end">
-            {% for section in site.html_pages %}{% if section.nav %}
+
                 <li class="nav-item">
-                    <a class="nav-link nav-link-custom{% if page.url == section.url %} active{% endif %} p-3 h-100" href="{{ section.url | relative_url }}">{% if section.nav == true %}{{ section.title }}{% else %}{{ section.nav }}{% endif %}</a>
+                    <a class="nav-link nav-link-custom p-3 h-100{% if page.url contains '2026fall' %} active{% endif %}" href="{{ '/2026fall.html' | relative_url }}">Fall 2026</a>
                 </li>
-            {% endif %}{% endfor %}
-            </ul>  
+
+                {% assign past_active = false %}
+                {% if page.url contains '2026spring' or page.url contains '2025Fall' or page.url contains '2025spring' or page.url contains '2024fall' %}
+                    {% assign past_active = true %}
+                {% endif %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link nav-link-custom p-3 h-100 dropdown-toggle{% if past_active %} active{% endif %}" href="#" id="pastEditionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Past Editions</a>
+                    <ul class="dropdown-menu" aria-labelledby="pastEditionsDropdown">
+                        <li><a class="dropdown-item{% if page.url contains '2026spring' %} active{% endif %}" href="{{ '/2026spring.html' | relative_url }}">Spring 2026</a></li>
+                        <li><a class="dropdown-item{% if page.url contains '2025Fall' %} active{% endif %}" href="{{ '/2025Fall.html' | relative_url }}">Fall 2025</a></li>
+                        <li><a class="dropdown-item{% if page.url contains '2025spring' %} active{% endif %}" href="{{ '/2025spring.html' | relative_url }}">Spring 2025</a></li>
+                        <li><a class="dropdown-item{% if page.url contains '2024fall' %} active{% endif %}" href="{{ '/2024fall.html' | relative_url }}">Fall 2024</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-link-custom p-3 h-100{% if page.url contains 'sponsorship' %} active{% endif %}" href="{{ '/sponsorship.html' | relative_url }}">Sponsorship</a>
+                </li>
+
+            </ul>
         </div>
     </div>
 </nav>

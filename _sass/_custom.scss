@@ -1,1 +1,195 @@
-/* add your tweaks here! */
+/* TRUST-AI custom styles */
+
+/* --- Featured speakers grid --- */
+.speakers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.speaker {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.speaker img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.speaker p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.speaker-link {
+    text-decoration: none;
+}
+.speaker-link:hover,
+.speaker-link:focus {
+    color: blue;
+}
+
+/* --- Sponsorship call-to-action banner --- */
+.sponsor-cta {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 22px;
+    margin: 24px 0;
+    background: linear-gradient(135deg, #fff2df 0%, #ffe1b8 100%);
+    border-left: 5px solid #f28c1b;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.sponsor-cta:hover,
+.sponsor-cta:focus {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.sponsor-cta__icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f28c1b;
+    color: #fff;
+    border-radius: 50%;
+}
+.sponsor-cta__text { flex: 1; }
+.sponsor-cta__title {
+    margin: 0 0 4px 0;
+    color: #163a5c;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.sponsor-cta__body {
+    margin: 0;
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+.sponsor-cta__arrow {
+    color: #d46a00;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+@media (max-width: 575px) {
+    .sponsor-cta { flex-wrap: wrap; }
+    .sponsor-cta__arrow { display: none; }
+}
+
+/* --- Sponsorship page --- */
+.sponsorship-hero {
+    background: linear-gradient(135deg, #f28c1b 0%, #f7b26a 100%);
+    color: #fff;
+    padding: 40px 32px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.sponsorship-eyebrow {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin: 0;
+    opacity: 0.9;
+}
+.sponsorship-title {
+    font-weight: 700;
+    margin: 8px 0 4px 0;
+}
+.sponsorship-subtitle {
+    font-weight: 500;
+}
+.sponsorship-tagline {
+    font-style: italic;
+    margin: 12px 0 0 0;
+    max-width: 700px;
+}
+.sponsorship-year {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    margin: -30px 0 0 0;
+}
+.tier-card {
+    background: #fff8ef;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-left: 6px solid #f28c1b;
+    display: flex;
+    flex-direction: column;
+}
+.tier-platinum { border-left-color: #d46a00; }
+.tier-gold    { border-left-color: #f2b035; }
+.tier-silver  { border-left-color: #c47c2c; }
+.tier-header {
+    border-bottom: 1px solid #f2d6b0;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+.tier-name {
+    color: #163a5c;
+    font-weight: 700;
+    margin: 0;
+}
+.tier-price {
+    color: #f28c1b;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 4px 0 0 0;
+}
+.tier-price span {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+.tier-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #163a5c;
+}
+.tier-benefits li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.tier-benefits li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    background: #f28c1b;
+    border-radius: 50%;
+}
+.partner-block {
+    background: #f5f5f5;
+    padding: 24px;
+    border-radius: 12px;
+}
+.partner-block h3 {
+    margin-top: 0;
+    color: #163a5c;
+}
+@media (max-width: 767px) {
+    .sponsorship-year {
+        text-align: left;
+        margin-top: 12px;
+        font-size: 2.2rem;
+    }
+}
